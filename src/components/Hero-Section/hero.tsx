@@ -1,4 +1,3 @@
-import Image from "next/image"
 export default function HeroSection(){
     return(
         <div className="w-full h-[850px] absolute top-[204px] left-[300px] bg-[#F0F2F3]">
@@ -14,12 +13,7 @@ export default function HeroSection(){
                   <div><img src="/Right 24px.svg" alt="" /></div>
                </button>
                <div className="absolute top-[115px] left-[777px]">
-                  <Image
-               src="/Product Image.png"
-               alt="Product Image"
-               width={434}
-               height={544}
-               />
+                  <img src="/Product Image.png" alt="" />
               </div>
            </div>
       </div>
