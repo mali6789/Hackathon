@@ -36,9 +36,6 @@ export default function NavbarTop() {
           </div>
        </div>
     </div>
-    <div className="">
-
-    </div>
    </div>
     );
   }
