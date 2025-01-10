@@ -1,7 +1,7 @@
 export default function TopCategories(){
     return(
-        <div className="w-full h-[508px] absolute top-[1867px] left-[-148px]">
-             <div className="w-full h-[44px] absolute left-[148px] px-[300px] text-[32px] leading-[35.5px] text-left text-[#272343]"
+        <div className="h-[508px] absolute top-[1867px] left-[-148px]">
+             <div className="min-w-[1920px] h-[44px] absolute left-[148px] px-[300px] text-[32px] leading-[35.5px] text-left text-[#272343]"
              >Top Categories</div>
              <div className="w-[424px] h-[424px] absolute top-[84px] opacity-[20%]"></div>
                 <div className="w-[424px] h-[424px] absolute top-[84px] left-[448px]">

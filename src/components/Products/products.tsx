@@ -3,10 +3,10 @@ import Link from "next/link";
 export default function FeatureProduct() {
     return (
       //Main container for Featured Products section
-    <div className="absolute w-full h-[461px] top-[1270px]">
+    <div className="absolute h-[461px] top-[1270px]">
 
           {/* Title for Featured Products */}
-         <div className="w-full h-[44px] px-[300px] font-inter text-[32px] leading-[35.2px] text-left text-[#272343]">
+         <div className="h-[44px] px-[300px] font-inter text-[32px] leading-[35.2px] text-left text-[#272343]">
          Featured Products
          </div>
          {/* Product Card 1 */}
@@ -22,7 +22,7 @@ export default function FeatureProduct() {
              <img src="Add Cart (1).png"/>
            </div>
             {/* Product Name and Price */}
-           <div className="w-[256px] h-[51px] absolute top-[326px] gap-[10px]">
+           <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
              <div className="font-inter text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
               <div className="gap-[4px] font-inter text-[18px] leading-[19.8px]">$20</div>
            </div>
@@ -38,7 +38,7 @@ export default function FeatureProduct() {
            <div className="absolute top-[329px] left-[268px]">
              <img src="Add Cart.png"/>
            </div>
-           <div className="w-[256px] h-[51px] absolute top-[326px] gap-[10px]">
+           <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
              <div className="font-inter text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
               <div className="gap-[4px] font-inter text-[18px] leading-[19.8px]">$20</div>
            </div>
@@ -51,7 +51,7 @@ export default function FeatureProduct() {
            <div className="absolute top-[329px] left-[268px]">
              <img src="Add Cart.png"/>
            </div>
-           <div className="w-[256px] h-[51px] absolute top-[326px] gap-[10px]">
+           <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
              <div className="font-inter text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
               <div className="gap-[4px] font-inter text-[18px] leading-[19.8px]">$20</div>
            </div>
@@ -64,7 +64,7 @@ export default function FeatureProduct() {
            <div className="absolute top-[329px] left-[268px]">
              <img src="Add Cart.png"/>
            </div>
-           <div className="w-[256px] h-[51px] absolute top-[326px] gap-[10px]">
+           <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
              <div className="font-inter text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
               <div className="gap-[4px] font-inter text-[18px] leading-[19.8px]">$20</div>
            </div>

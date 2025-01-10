@@ -1,8 +1,8 @@
 export default function OurProduct(){
     return(
         <div>
-             <div className="w-full h-[919px] absolute top-[3425px] left-[307px]">
-                 <div className="absolute top-[16px] left-[557px] font-['inter'] text-[32px] leading-[35.2px]">
+             <div className="h-[919px] absolute top-[3425px] left-[307px]">
+                 <div className="w-[204px] absolute top-[16px] left-[557px] font-['inter'] text-[32px] leading-[35.2px]">
                      Our Product
                  </div>
                     {/* Product Card 1 */}
