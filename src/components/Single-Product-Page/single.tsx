@@ -1,8 +1,14 @@
+import Image from "next/image"
 export default function SingleProductPage(){
     return (
         <div className="w-full h-auto">
             <div className="absolute top-[335px] left-[260px]">
-                <img src="image (10).png" alt="" />
+                <Image 
+                src="/Image (10).png" 
+                alt="" 
+                width={675}
+                height={607}
+                />
             </div>
             <div className="w-[541px] h-[132px] top-[335px] left-[1044px] absolute">
                 <p className="font-inter font-bold text-[60px] leading-[66px] text-[#272343]">Library Stool 
@@ -21,7 +27,11 @@ export default function SingleProductPage(){
             </div>
             <div>
                 <button className="w-[212px] h-[63px] top-[751px] left-[1046px] rounded-[8px] py-[14px] px-[24px] flex gap-[9px] absolute bg-[#029FAE]">
-                        <img src="Buy 2.png"/>
+                        <Image src="/Buy 2.png"
+                        alt=""
+                        width={29}
+                        height={29}
+                        />
                         <p className="font-inter font-semibold text-[20px] leading-[22px] text-white">Add To cart</p>
                 </button>
             </div>

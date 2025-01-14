@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Newsletter() {
     return (
       <div className="absolute h-[754px] w-[1924px] top-[1813px] grid gap-[70px] py-[100px] px-[300px]">
@@ -23,12 +24,38 @@ export default function Newsletter() {
             <h2 className="font-roboto font-medium text-[50px] leading-[58.59px] text-center">Follow products and discounts on Instagram</h2>
           </div>
           <div className="w-[1324px] h-[200px] absolute top-[500px] left-[300px] flex justify center gap-[24px]">
-            <img src="/Image (5).png"/>
-            <img src="/Image (4).png"/>
-            <img src="/Image (2).png"/>
-            <img src="/Image (1).png"/>
-            <img src="/Image (3).png"/>
-            <img src="/Image (7).png"/>
+            <Image 
+            src="/Image (5).png"
+            alt=""
+            width={200}
+            height={200}
+            />
+            <Image 
+            src="/Image (4).png"
+            alt=""
+            width={200}
+            height={200}
+            />
+            <Image src="/Image (2).png"
+            alt=""
+            width={200}
+            height={200}
+            />
+            <Image src="/Image (1).png"
+            alt=""
+            width={200}
+            height={200}
+            />
+            <Image src="/Image (3).png"
+            alt=""
+            width={200}
+            height={200}
+            />
+            <Image src="/Image (7).png"
+            alt=""
+            width={200}
+            height={200}
+            />
           </div>
         </div>
       </div>

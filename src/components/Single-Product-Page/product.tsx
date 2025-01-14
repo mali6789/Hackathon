@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function SingleProductCard(){
     return(
         <div>
@@ -10,7 +11,11 @@ export default function SingleProductCard(){
                     </button>
                 </div>
                 <div className="w-[270px] h-[306px] absolute top-[69px]">
-                    <img src="image (8).png"/>
+                    <Image src="/Image (8).png"
+                    alt=""
+                    width={263}
+                    height={263}
+                    />
                     <div className="w-[141px] h-[21px] flex">
                         <p className="font-inter text-[16px] font-normal leading-[20.8px] text-left absolute top-[280px] text-[#272343]">Library Stool Chair</p>
                         <p className="font-inter text-[16px] font-normal leading-[20.8px] absolute left-[235px] top-[280px]">$99</p>
@@ -18,7 +23,11 @@ export default function SingleProductCard(){
                 </div>
 
                 <div className="w-[270px] h-[306px] absolute top-[69px] left-[300px]">
-                    <img src="image (1).png"/>
+                    <Image src="/Image (1).png"
+                    alt=""
+                    width={263}
+                    height={263}
+                    />
                     <div className="w-[141px] h-[21px] flex">
                         <p className="font-inter text-[16px] font-normal leading-[20.8px] text-left absolute top-[280px] text-[#272343]">Library Stool Chair</p>
                         <p className="font-inter text-[16px] font-normal leading-[20.8px] absolute left-[235px] top-[280px]">$99</p>
@@ -26,7 +35,11 @@ export default function SingleProductCard(){
                 </div>
 
                 <div className="w-[270px] h-[306px] absolute top-[69px] left-[600px]">
-                    <img src="image (7).png"/>
+                    <Image src="/Image (7).png"
+                    alt=""
+                    width={263}
+                    height={263}
+                    />
                     <div className="w-[141px] h-[21px] flex">
                         <p className="font-inter text-[16px] font-normal leading-[20.8px] text-left absolute top-[280px] text-[#272343]">Library Stool Chair</p>
                         <p className="font-inter text-[16px] font-normal leading-[20.8px] absolute left-[235px] top-[280px]">$99</p>
@@ -34,7 +47,11 @@ export default function SingleProductCard(){
                 </div>
 
                 <div className="w-[270px] h-[306px] absolute top-[69px] left-[900px]">
-                    <img src="image (3).png"/>
+                    <Image 
+                    src="/Image (3).png"
+                    alt=""
+                    width={263}
+                    height={263}/>
                     <div className="w-[141px] h-[21px] flex">
                         <p className="font-inter text-[16px] font-normal leading-[20.8px] text-left absolute top-[280px] text-[#272343]">Library Stool Chair</p>
                         <p className="font-inter text-[16px] font-normal leading-[20.8px] absolute left-[235px] top-[280px]">$99</p>
@@ -42,7 +59,11 @@ export default function SingleProductCard(){
                 </div>
 
                 <div className="w-[270px] h-[306px] absolute top-[69px] left-[1200px]">
-                    <img src="image (4).png"/>
+                    <Image src="/Image (4).png"
+                    alt=""
+                    width={263}
+                    height={263}
+                    />
                     <div className="w-[141px] h-[21px] flex">
                         <p className="font-inter text-[16px] font-normal leading-[20.8px] text-left absolute top-[280px] text-[#272343]">Library Stool Chair</p>
                         <p className="font-inter text-[16px] font-normal leading-[20.8px] absolute left-[235px] top-[280px]">$99</p>

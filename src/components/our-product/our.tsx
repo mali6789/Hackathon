@@ -36,7 +36,7 @@ export default function OurProduct() {
                 </div>
 
                 {/* Product Card 3 */}
-                <div className="w-[312px] h-[377px] absolute top-[524px] left-[672px]">
+                <div className="w-[312px] h-[377px] absolute top-[542px] left-[672px]">
                     <div>
                         <Image src="/Image (8).png" alt="Library Stool Chair" width={312} height={377} />
                         <div className="absolute top-[329px] left-[268px]">

@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Frame(){
     return (
         <div>
@@ -29,7 +30,12 @@ export default function Frame(){
                         </div>
                         <div className="w-[963px] h-[211px] top-[34px] left-[16px] pt-[24px] pb-[24px] absolute">
                             <div className="w-[933px] h-[163px] flex gap-[30px]">
-                                <img src="item-category 1.png" alt="" />
+                                <Image 
+                                src="/item-category 1.png" 
+                                alt="" 
+                                width={150}
+                                height={150}
+                                />
                                 <div className="w-[753px] h-[163px] grid gap-[24px]">
                                     <div className="w-[687.53px] h-[105px] flex gap-[376px]">
                                         <div className="w-[235.31px] h-[105px]">
@@ -46,8 +52,17 @@ export default function Frame(){
                                                 </div>
                                             </div>
                                             <div className="w-[537.33px] h-[34px] pt-[4px] pr-[473.33px] pb-[6px] flex gap-[16px]">
-                                                <img src="Frame.png" alt="" />
-                                                <img src="Frame (1).png" alt="" />
+                                                <Image 
+                                                src="/Frame.png" 
+                                                alt="" 
+                                                width={24}
+                                                height={24}
+                                                />
+                                                <Image src="/Frame (1).png" 
+                                                alt="" 
+                                                width={24}
+                                                height={24}
+                                                />
                                             </div>
                                         </div>
                                         <div className="w-[76.22px] h-[28px] pr-[4.22px] pl-[2px]">
@@ -60,7 +75,11 @@ export default function Frame(){
 
                         <div className="w-[963px] h-[211px] top-[253px] left-[16px] pt-[24px] pb-[24px] absolute">
                             <div className="w-[933px] h-[163px] flex gap-[30px]">
-                                <img src="Image (4).png" alt="" />
+                                <Image src="/Image (4).png" 
+                                alt="" 
+                                width={150}
+                                height={150}
+                                />
                                 <div className="w-[753px] h-[163px] grid gap-[24px]">
                                     <div className="w-[687.53px] h-[105px] flex gap-[376px]">
                                         <div className="w-[235.31px] h-[105px]">
@@ -77,8 +96,16 @@ export default function Frame(){
                                                 </div>
                                             </div>
                                             <div className="w-[537.33px] h-[34px] pt-[4px] pr-[473.33px] pb-[6px] flex gap-[16px]">
-                                                <img src="Frame.png" alt="" />
-                                                <img src="Frame (1).png" alt="" />
+                                                <Image 
+                                                src="/Frame.png" 
+                                                alt="" 
+                                                width={24}
+                                                height={24}/>
+                                                <Image 
+                                                src="/Frame (1).png" 
+                                                alt="" 
+                                                width={24}
+                                                height={24}/>
                                             </div>
                                         </div>
                                         <div className="w-[76.22px] h-[28px] pr-[4.22px] pl-[2px]">

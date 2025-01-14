@@ -1,13 +1,46 @@
+import Image from "next/image";
 const Footer2 = () => {
     return (
           <div className="w-full bg-[#F9F9F9] absolute top-[2567px] left-[-12px]">
           <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Logo & Text */}
-            <div>
-              <img src="/Logo.png" alt="Logo" className="mb-4" />
+            <div className="w-[350px] h-[198px] flex flex-col gap-[24px]">
+              <Image 
+              src="/Logo.png" 
+              alt="Logo" 
+              className="mb-4" 
+              width={168}
+              height={40}/>
               <p className="text-[#272343] opacity-60 text-[16px] leading-6">
                 Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum. Cras egestas purus.
               </p>
+              <div className="flex gap-[4px] w-[206px] h-[38px]">
+              <Image src="/Group 44.png"
+              alt="Icons"
+              width={38}
+              height={38}
+              />
+              <Image src="/Group 46.png"
+              alt="Icons"
+              width={38}
+              height={38}
+              />
+              <Image src="/Group 47.png"
+              alt="Icons"
+              width={38}
+              height={38}
+              />
+              <Image src="/Group 48.png"
+              alt="Icons"
+              width={38}
+              height={38}
+              />
+              <Image src="/Group 50.png"
+              alt="Icons"
+              width={38}
+              height={38}
+              />
+            </div>
             </div>
     
             {/* Categories */}
