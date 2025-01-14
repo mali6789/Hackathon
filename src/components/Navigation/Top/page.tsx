@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function NavbarTop() {
     return (
    <div>
-    <div className="bg-[#272347] h-[45px] flex justify-between px-[300px] py-[14px]">
+    <div className="bg-[#272347] lg:max-w-[1920px] lg:h-[45px] flex justify-between px-[300px] py-[14px]">
        <div className="flex gap-2">
             <Image
             src="/Group.png" 
