@@ -5,7 +5,7 @@ export default function FaqsBox() {
                 <div className="w-full h-[558px] absolute top-[173px]">
                     {/* Card 1 */}
                     <div className="w-[648px] h-[170px] absolute top-[388px] left-[672px]">
-                        <img src="plus.png" className="absolute top-1 left-[600px]" />
+                        <img src="Plus.png" className="absolute top-1 left-[600px]" />
                         <div className="w-[424px] h-[26px] top-[24px] left-[24px] absolute">
                             <p className="font-inter font-bold text-[18px] leading-[26px] paragraph-[25.2px]">How do I clean and maintain my Comforty chair?</p>
                         </div>
@@ -15,7 +15,7 @@ export default function FaqsBox() {
                     </div>
                     {/* Card 2 */}
                     <div className="w-[648px] h-[170px] absolute top-[217px] left-[672px]">
-                     <img src="plus.png" className="absolute top-1 left-[600px]" />
+                     <img src="Plus.png" className="absolute top-1 left-[600px]" />
                         <div className="w-[424px] h-[26px] top-[24px] left-[24px] absolute">
                             <p className="font-inter font-bold text-[18px] leading-[26px] paragraph-[25.2px]">What will be delivered? And When?</p>
                         </div>
@@ -25,7 +25,7 @@ export default function FaqsBox() {
                     </div>
                     {/* Card 3 */}
                     <div className="w-[648px] h-[170px] absolute top-[45px] left-[672px]">
-                     <img src="plus.png" className="absolute top-1 left-[600px]" />
+                     <img src="Plus.png" className="absolute top-1 left-[600px]" />
                        <div className="w-[424px] h-[26px] top-[24px] left-[24px] absolute">
                             <p className="font-inter font-bold text-[18px] leading-[26px] paragraph-[25.2px]">How can we get in touch with you?</p>
                         </div>
@@ -35,7 +35,7 @@ export default function FaqsBox() {
                     </div>
                     {/* Card 4 */}
                     <div className="w-[648px] h-[170px] absolute top-[388px] left-[0px]">
-                     <img src="plus.png" className="absolute top-1 left-[600px]" />
+                     <img src="Plus.png" className="absolute top-1 left-[600px]" />
                        <div className="w-[424px] h-[26px] top-[24px] left-[24px] absolute">
                             <p className="font-inter font-bold text-[18px] leading-[26px] paragraph-[25.2px]">Can I try a chair before purchasing?</p>
                         </div>
@@ -45,7 +45,7 @@ export default function FaqsBox() {
                     </div>
                     {/* Card 5 */}
                     <div className="w-[648px] h-[170px] absolute top-[217px] left-[0px]">
-                     <img src="plus.png" className="absolute top-1 left-[600px]" />
+                     <img src="Plus.png" className="absolute top-1 left-[600px]" />
                        <div className="w-[424px] h-[26px] top-[24px] left-[24px] absolute">
                             <p className="font-inter font-bold text-[18px] leading-[26px] paragraph-[25.2px]">Do your chairs come with a warranty?</p>
                         </div>
@@ -55,7 +55,7 @@ export default function FaqsBox() {
                     </div>
                     {/* Card 6 */}
                     <div className="w-[648px] h-[170px] absolute top-[45px] left-[0px]">
-                     <img src="plus.png" className="absolute top-1 left-[600px]" />
+                     <img src="Plus.png" className="absolute top-1 left-[600px]" />
                         <div className="w-[424px] h-[26px] top-[24px] left-[24px] absolute">
                             <p className="font-inter font-bold text-[18px] leading-[26px] paragraph-[25.2px]">What types of chairs do you offer?</p>
                         </div>

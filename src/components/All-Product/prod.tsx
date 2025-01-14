@@ -13,7 +13,7 @@ export default function AllProduct() {
        <div className="w-[312px] h-[377px] absolute top-[84px] left-[300px]">
          <div>
            <Image
-           src={"/image (1).png"}
+           src="/Image (1).png"
            alt="Product Image 1"
            width={312}
            height={312}
@@ -23,7 +23,7 @@ export default function AllProduct() {
            </div>
          </div>
         <div className="absolute top-[329px] left-[268px]">
-          <img src="Add Cart (1).png"/>
+          <img src="/Add Cart (1).png"/>
         </div>
         <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
           <div className="font-inter text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
@@ -34,7 +34,7 @@ export default function AllProduct() {
          <div className="w-[312px] h-[377px] absolute top-[84px] left-[636px]">
            <div>
            <Image
-           src={"/image (2).png"}
+           src={"/Image (2).png"}
            alt="Product Image 2"
            width={312}
            height={312}
@@ -44,7 +44,7 @@ export default function AllProduct() {
              </div>
            </div>
            <div className="absolute top-[329px] left-[268px]">
-             <img src="Add Cart.png"/>
+             <img src="/Add Cart.png"/>
            </div>
            <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
              <div className="font-inter text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
@@ -55,14 +55,14 @@ export default function AllProduct() {
          <div className="w-[312px] h-[377px] absolute top-[84px] left-[972px]">
            <div>
            <Image
-           src={"/image (3).png"}
+           src={"/Image (3).png"}
            alt="Product Image 1"
            width={312}
            height={312}
            />
            </div>
            <div className="absolute top-[329px] left-[268px]">
-             <img src="Add Cart.png"/>
+             <img src="/Add Cart.png"/>
            </div>
            <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
              <div className="font-inter text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
@@ -73,14 +73,14 @@ export default function AllProduct() {
          <div className="w-[312px] h-[377px] absolute top-[84px] left-[1308px]">
            <div>
              <Image
-           src={"/image.png"}
+           src={"/Image.png"}
            alt="Product Image 1"
            width={312}
            height={312}
            />
            </div>
            <div className="absolute top-[329px] left-[268px]">
-             <img src="Add Cart.png"/>
+             <img src="/Add Cart.png"/>
            </div>
            <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
              <div className="font-inter text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
@@ -95,7 +95,7 @@ export default function AllProduct() {
            {/* Product Image and Tag */}
            <div>
            <Image
-           src={"/image (5).png"}
+           src={"/Image (5).png"}
            alt="Product Image 1"
            width={312}
            height={312}
@@ -105,7 +105,7 @@ export default function AllProduct() {
              </div>
            </div>
            <div className="absolute top-[329px] left-[268px]">
-             <img src="Add Cart (1).png"/>
+             <img src="/Add Cart (1).png"/>
            </div>
             {/* Product Name and Price */}
            <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
@@ -117,7 +117,7 @@ export default function AllProduct() {
          <div className="w-[312px] h-[377px] absolute top-[84px] left-[636px]">
            <div>
            <Image
-           src={"/image (9).png"}
+           src={"/Image (9).png"}
            alt="Product Image 1"
            width={312}
            height={312}
@@ -127,7 +127,7 @@ export default function AllProduct() {
              </div>
            </div>
            <div className="absolute top-[329px] left-[268px]">
-             <img src="Add Cart.png"/>
+             <img src="/Add Cart.png"/>
            </div>
            <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
              <div className="font-inter text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
@@ -138,14 +138,14 @@ export default function AllProduct() {
          <div className="w-[312px] h-[377px] absolute top-[84px] left-[972px]">
            <div>
              <Image
-           src={"/image (8).png"}
+           src={"/Image (8).png"}
            alt="Product Image 1"
            width={312}
            height={312}
            />
            </div>
            <div className="absolute top-[329px] left-[268px]">
-             <img src="Add Cart.png"/>
+             <img src="/Add Cart.png"/>
            </div>
            <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
              <div className="text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
@@ -156,14 +156,14 @@ export default function AllProduct() {
          <div className="w-[312px] h-[377px] absolute top-[84px] left-[1308px]">
            <div>
            <Image
-           src={"/image (1).png"}
+           src={"/Image (1).png"}
            alt="Product Image 1"
            width={312}
            height={312}
            />
            </div>
            <div className="absolute top-[329px] left-[268px]">
-             <img src="Add Cart.png"/>
+             <img src="/Add Cart.png"/>
            </div>
            <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
              <div className="font-inter text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
@@ -179,7 +179,7 @@ export default function AllProduct() {
            {/* Product Image and Tag */}
            <div>
            <Image
-           src={"/image (4).png"}
+           src={"/Image (4).png"}
            alt="Product Image 1"
            width={312}
            height={312}
@@ -189,7 +189,7 @@ export default function AllProduct() {
              </div>
            </div>
            <div className="absolute top-[329px] left-[268px]">
-             <img src="Add Cart (1).png"/>
+             <img src="/Add Cart (1).png"/>
            </div>
             {/* Product Name and Price */}
            <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
@@ -201,7 +201,7 @@ export default function AllProduct() {
          <div className="w-[312px] h-[377px] absolute top-[84px] left-[636px]">
            <div>
            <Image
-           src={"/image (2).png"}
+           src={"/Image (2).png"}
            alt="Product Image 1"
            width={312}
            height={312}
@@ -211,7 +211,7 @@ export default function AllProduct() {
              </div>
            </div>
            <div className="absolute top-[329px] left-[268px]">
-             <img src="Add Cart.png"/>
+             <img src="/Add Cart.png"/>
            </div>
            <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
              <div className="font-inter text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
@@ -222,14 +222,14 @@ export default function AllProduct() {
          <div className="w-[312px] h-[377px] absolute top-[84px] left-[972px]">
            <div>
              <Image
-           src={"/image (3).png"}
+           src={"/Image (3).png"}
            alt="Product Image 1"
            width={312}
            height={312}
            />
            </div>
            <div className="absolute top-[329px] left-[268px]">
-             <img src="Add Cart.png"/>
+             <img src="/Add Cart.png"/>
            </div>
            <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
              <div className="font-inter text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
@@ -240,14 +240,14 @@ export default function AllProduct() {
          <div className="w-[312px] h-[377px] absolute top-[84px] left-[1308px]">
            <div>
            <Image
-           src={"/image (7).png"}
+           src={"/Image (7).png"}
            alt="Product Image 1"
            width={312}
            height={312}
            />
            </div>
            <div className="absolute top-[329px] left-[268px]">
-             <img src="Add Cart.png"/>
+             <img src="/Add Cart.png"/>
            </div>
            <div className="w-[256px] h-[51px] absolute top-[326px] grid gap-[10px]">
              <div className="font-inter text-[16px] font-normal leading-[20.8px] text-left">Library Stool Chair</div>
