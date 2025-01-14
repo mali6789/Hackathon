@@ -11,8 +11,8 @@ export default function NavbarLinks(){
                  <Link className="text-[#636270] hover:text-[#007580]" href={"/about"}>About</Link>
              </div>
              <div className="flex gap-[8px] h-[15px] font-inter text-[14px] font-medium leading-[15.4px]">
-                <div className="text-[#636270] font-[400]">Contact:</div>
-                <div className="text-[#272343]">(808) 555-0111</div>
+                <Link className="text-[#636270] font-[400]" href={"/contact-us"}>Contact:</Link>
+                <Link className="text-[#272343]" href={"/contact-us"}>(808) 555-0111</Link>
              </div>
         </div>
     )
