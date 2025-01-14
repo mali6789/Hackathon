@@ -1,10 +1,10 @@
 import Image from "next/image";
 const Footer6 = () => {
     return (
-          <div className="w-full bg-[#F9F9F9] absolute top-[1615px] left-[-12px]">
-          <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="w-full bg-black absolute top-[1615px] left-[-12px]">
+          <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 bg-black">
             {/* Logo & Text */}
-<div className="w-[350px] h-[198px] flex flex-col gap-[24px]">
+             <div className="w-[350px] h-[198px] flex flex-col gap-[24px]">
               <Image 
               src="/Logo.png" 
               alt="Logo" 
@@ -55,6 +55,16 @@ const Footer6 = () => {
                 <li>Park Bench</li>
               </ul>
             </div>
+            {/* Support */}
+            <div className="absolute top-[80px] left-[971px]">
+            <h3 className="font-medium text-[#9A9CAA] text-sm uppercase mb-4">Support</h3>
+            <ul className="space-y-2 text-[#272343] text-[16px]">
+              <li>Help & Support</li>
+              <li>Tearms & Conditions</li>
+              <li>Privacy Policy</li>
+              <li>Help</li>
+            </ul>
+          </div>
     
             {/* Newsletter */}
             <div>
