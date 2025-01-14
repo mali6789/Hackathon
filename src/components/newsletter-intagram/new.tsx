@@ -23,12 +23,12 @@ export default function Newsletter() {
             <h2 className="font-roboto font-medium text-[50px] leading-[58.59px] text-center">Follow products and discounts on Instagram</h2>
           </div>
           <div className="w-[1324px] h-[200px] absolute top-[500px] left-[300px] flex justify center gap-[24px]">
-            <img src="/image (5).png"/>
-            <img src="/image (4).png"/>
-            <img src="/image (2).png"/>
-            <img src="/image (1).png"/>
-            <img src="/image (3).png"/>
-            <img src="/image (7).png"/>
+            <img src="/Image (5).png"/>
+            <img src="/Image (4).png"/>
+            <img src="/Image (2).png"/>
+            <img src="/Image (1).png"/>
+            <img src="/Image (3).png"/>
+            <img src="/Image (7).png"/>
           </div>
         </div>
       </div>
