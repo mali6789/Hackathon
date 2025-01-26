@@ -20,9 +20,10 @@ export default function Contact(){
              Mobile: +(84) 546-6789 Hotline: +(84) 456-6789
             </div>
             <Image src="/bi_clock-fill.png" width={23} height={23} alt="contact-us" className="absolute top-[340px] left-[54px]"/>
-            <div className="absolute top-[334px] left-[106px] font-'Poppins' font-[500] text-[#000000] text-[24px] leading-[36px]">Phone</div>
+            <div className="absolute top-[334px] left-[106px] font-'Poppins' font-[500] text-[#000000] text-[24px] leading-[36px]">Working Time</div>
             <div className="absolute top-[370px] left-[106px] w-[212px] h-[57px] font-'Inter' font-normal text-[#000000] text-[16px] leading-[19px]">
-             Mobile: +(84) 546-6789 Hotline: +(84) 456-6789
+            Monday-Friday: 9:00 - 22:00
+            Saturday-Sunday: 9:00 - 21:00
             </div>
          </div>
 

@@ -1,42 +1,45 @@
-import Image from "next/image"
+import TopCard from "../card1"
+const ProductData = [
+    {
+        id: 1,
+        Imagesrc: "/Image (4).png",
+        name: "Wing Chair",
+        numberofproducts: "3,584 products",
+        position: "absolute top-[84px] left-[448px]",
+    },
+    {
+        id: 2,
+        Imagesrc: "/Image (5).png",
+        name: "Wooden Chair",
+        numberofproducts: "157 products",
+        position: "absolute top-[84px] left-[896px]",
 
+    },
+    {
+        id: 3,
+        Imagesrc: "/Image (7).png",
+        name: "Desk Chair",
+        numberofproducts: "154 products",
+        position: "absolute top-[84px] left-[1344px]",
+    }
+]
 export default function TopCategories() {
     return (
         <div className="h-[508px] absolute top-[1867px] left-[-148px]">
             <div className="min-w-[1920px] h-[44px] absolute left-[148px] px-[300px] text-[32px] leading-[35.5px] text-left text-[#272343]">
                 Top Categories
             </div>
-            <div className="w-[424px] h-[424px] absolute top-[84px] opacity-[20%]"></div>
-            <div className="w-[424px] h-[424px] absolute top-[84px] left-[448px]">
-                <div>
-                    <Image src={"/Image (4).png"} alt="Wing Chair" width={424} height={424} />
-                    <div className="w-[424px] h-[85px] absolute top-[339px] rounded-br-[10px] rounded-bl-[10px] p-[20px] flex flex-col gap-[8px] bg-[#000000B2]">
-                        <div className="f-['inter'] text-[20px] leading-[22px] text-white">Wing Chair</div>
-                        <div className="f-['inter'] text-[14px] font-[400] leading-[15.4px] opacity-[70%] text-white">3,584 Products</div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="w-[424px] h-[424px] absolute top-[84px] left-[896px]">
-                <div>
-                    <Image src="/Image (5).png" alt="Wooden Chair" width={424} height={424} />
-                    <div className="w-[424px] h-[85px] absolute top-[339px] rounded-br-[10px] rounded-bl-[10px] p-[20px] flex flex-col gap-[8px] bg-[#000000B2]">
-                        <div className="f-['inter'] text-[20px] leading-[22px] text-white">Wooden Chair</div>
-                        <div className="f-['inter'] text-[14px] font-[400] leading-[15.4px] opacity-[70%] text-white">157 Products</div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="w-[424px] h-[424px] absolute top-[84px] left-[1344px]">
-                <div>
-                    <Image src="/Image (7).png" alt="Desk Chair" width={424} height={424} />
-                    <div className="w-[424px] h-[85px] absolute top-[339px] rounded-br-[10px] rounded-bl-[10px] p-[20px] flex flex-col gap-[8px] bg-[#000000B2]">
-                        <div className="f-['inter'] text-[20px] leading-[22px] text-white">Desk Chair</div>
-                        <div className="f-['inter'] text-[14px] font-[400] leading-[15.4px] opacity-[70%] text-white">154 Products</div>
-                    </div>
-                </div>
-            </div>
-            <div className="w-[424px] h-[424px] absolute top-[84px] left-[1792px] opacity-[20%]"></div>
+                {ProductData.map((elem) =>{
+                    return(
+                        <TopCard 
+                        key={elem.id}
+                        Imagesrc={elem.Imagesrc} 
+                        name={elem.name} 
+                        numberofproducts={elem.numberofproducts} 
+                        position={elem.position} 
+                        />
+                    )
+                })}
         </div>
     )
 }
