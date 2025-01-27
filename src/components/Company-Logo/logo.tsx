@@ -7,7 +7,7 @@ export default function CompanyLogo() {
             alt="Company Logo"
             width={85}
             height={87}
-s            />
+            />
 
             <Image 
             src="/Logo (2).png" 
