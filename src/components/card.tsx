@@ -13,7 +13,7 @@ interface FeaturedProductProps {
 const FeatureCard = (props: FeaturedProductProps) => {
     const {Imagesrc, tag, tagColor, AddToCardsrc, position} = props;
     return(
-        <div className={`w-[312px] h-[377px] absolute ${position}`}>
+        <div className={`w-[312px] h-[377px] lg:absolute ${position}`}>
            {/* Product Image and Tag */}
            <div>
              <Image src={Imagesrc} alt="" width={312} height={312}/>

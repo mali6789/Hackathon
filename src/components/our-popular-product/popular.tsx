@@ -2,9 +2,9 @@ import Image from "next/image"
 
 export default function PopularProducts(){
     return(
-        <div>
+        <div className="">
             {/*Popular Product 3*/}
-            <div className="absolute w-[630px] h-[462px] top-[1449px] left-[1295px] grid gap-[24px]">
+            <div className="absolute w-[630px] h-[462px] sm:top-[3450px] lg:top-[1449px] sm:left-[180px] lg:left-[1295px] grid gap-[24px]">
                 <Image src="/Photo.png" alt=""
                 width={305}
                 height={375}
@@ -15,7 +15,7 @@ export default function PopularProducts(){
                 </div>
             </div>
             {/*Popular Product 2*/}
-            <div className="absolute w-[630px] h-[462px] top-[1449px] left-[970px] grid gap-[24px]">
+            <div className="absolute w-[630px] h-[462px] sm:top-[2900px] lg:top-[1449px] sm:left-[180px] lg:left-[970px] grid gap-[24px]">
                 <Image src="/Photo (1).png" alt="" 
                  width={305}
                  height={375}
@@ -26,7 +26,7 @@ export default function PopularProducts(){
                 </div>
             </div>
             {/*Popular Product 1*/}
-            <div className="absolute w-[630px] h-[462px] top-[1449px] left-[320px] grid gap-[24px]">
+            <div className="absolute w-[630px] h-[462px] sm:top-[2400px] lg:top-[1449px] lg:left-[320px] grid gap-[24px]">
                 <Image src="/Large.png" alt="" 
                  width={630}
                  height={375}/>

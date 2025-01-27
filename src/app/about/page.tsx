@@ -15,10 +15,10 @@ export default function AboutUS(){
             <NavbarLinks/>
             <TextBlock/>
             <ImageBlock/>
-            <div className="absolute top-[913px] left-[750px]">
+            <div className="absolute sm:top-[1200px] lg:top-[913px] sm:left-[80px] lg:left-[750px]">
                 <p className="font-inter font-semibold text-[32px] leading-[35.2px]">What makes our Brand Different</p>
             </div>
-            <div className="absolute top-[1371px] left-[320px]">
+            <div className="absolute  sm:top-[2300px] lg:top-[1371px]  sm:left-[150px] lg:left-[320px]">
                 <p className="font-inter font-semibold text-[32px] leading-[35.2px]">Our Popular Products </p>
             </div>
             <Group/>

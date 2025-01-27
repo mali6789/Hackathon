@@ -1,7 +1,7 @@
 export default function TextBlock(){
     return(
         
-        <div className="w-[672px] h-[478px] absolute top-[303px] left-[300px] bg-[#007580]">
+        <div className="sm:w-[640px] lg:w-[672px] h-[478px] absolute lg:top-[303px] lg:left-[300px] bg-[#007580]">
             {/* Button*/}
             <button className="absolute w-[179px] h-[56px] top-[368px] left-[64px] py-[16px] px-[32px] gap-[10px] bg-[rgba(249,249,249,0.15)]">
                 <p className="font-inter font-normal text-[16px] leading-[24px] text-white">View collection</p>
