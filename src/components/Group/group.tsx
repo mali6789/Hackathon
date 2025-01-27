@@ -1,5 +1,3 @@
-import Image from "next/image"
-import { title } from "process"
 import Card3 from "../card3"
 
 const Brand = [

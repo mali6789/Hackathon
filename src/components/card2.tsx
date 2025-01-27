@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 interface FaqsBoxProps {
     question: string;
@@ -11,7 +12,7 @@ const card2 = (props:FaqsBoxProps) => {
   return (
     <div>
         <div className={`w-[648px] h-[170px] ${position}`}>
-         <img src="Plus.png" className="absolute top-1 left-[600px]" />
+         <Image src="/Plus.png" alt="" className="absolute top-1 left-[600px]" />
             <div className="w-[424px] h-[26px] top-[24px] left-[24px] absolute">
              <p className="font-inter font-bold text-[18px] leading-[26px] paragraph-[25.2px]">{question}</p>
             </div>
