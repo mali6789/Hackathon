@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function CompanyLogo() {
     return (
-        <div className="absolute w-[1321px] h-[139px] sm:top-[1500px] lg:top-[1107px] sm:left-[250px] lg:left-[300px] sm:grid lg:flex justify-between">
+        <div className="hidden absolute w-[1321px] h-[139px] top-[1107px] left-[300px] lg:flex justify-between">
             <Image 
             src="/Logo (1).png" 
             alt="Company Logo"

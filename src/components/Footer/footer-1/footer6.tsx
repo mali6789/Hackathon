@@ -1,7 +1,7 @@
 import Image from "next/image";
-const Footer6 = () => {
+const Footer7 = () => {
     return (
-          <div className="w-full bg-[#F9F9F9] absolute top-[1615px] left-[-12px]">
+          <div className="lg:w-full bg-[#F9F9F9] absolute lg:top-[1615px] lg:left-[-12px]">
           <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 h-[343px] w-full">
             {/* Logo & Text */}
              <div className="w-[350px] h-[198px] flex flex-col gap-[24px] absolute top-[80px] left-[300px]">
@@ -95,5 +95,5 @@ const Footer6 = () => {
     );
   };
   
-  export default Footer6;
+  export default Footer7;
   

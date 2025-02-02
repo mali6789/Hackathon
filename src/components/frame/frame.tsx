@@ -2,9 +2,9 @@ import Image from "next/image"
 export default function Frame(){
     return (
         <div>
-            <div className="top-[96px] absolute">
-                <div className="w-[1609px] h-[632.89px] top-[174px] left-[179px] absolute">
-                    <div className="w-[350.67px] h-[295px] top-[28px] left-[1100px] absolute grid">
+            <div className="lg:top-[96px] lg:absolute">
+                <div className="w-[1609px] h-[632.89px] top-[174px] lg:left-[179px] absolute">
+                    <div className="w-[350.67px] h-[295px] top-[500px] lg:top-[28px] left-[30px] lg:left-[1100px] absolute grid">
                         <button className="w-[334.67px] h-[60px] top-[235px] left-[8px] rounded-[30px] px-[100.8px] py-[18px] absolute bg-[#029FAE]">
                             <p className="font-inter font-medium text-[15px] leading-[24px] text-center text-white">Member Checkout</p>
                         </button>
@@ -65,7 +65,7 @@ export default function Frame(){
                                                 />
                                             </div>
                                         </div>
-                                        <div className="w-[76.22px] h-[28px] pr-[4.22px] pl-[2px]">
+                                        <div className="hidden lg:block w-[76.22px] h-[28px] pr-[4.22px] pl-[2px]">
                                             <p className="font-[Inter] font-medium text-[15px] leading-[28px] text-right text-black">MRP: $99</p>
                                         </div>
                                     </div>
@@ -108,7 +108,7 @@ export default function Frame(){
                                                 height={24}/>
                                             </div>
                                         </div>
-                                        <div className="w-[76.22px] h-[28px] pr-[4.22px] pl-[2px]">
+                                        <div className="hidden lg:block w-[76.22px] h-[28px] pr-[4.22px] pl-[2px]">
                                             <p className="font-[Inter] font-medium text-[15px] leading-[28px] text-right text-black">MRP: $99</p>
                                         </div>
                                     </div>

@@ -1,4 +1,4 @@
-import Footer6 from "@/components/Footer/footer-1/footer";
+import Footer7 from "@/components/Footer/footer-1/footer6";
 import NavbarLinks from "@/components/Navigation/Links/links";
 import NavbarMiddle from "@/components/Navigation/Middle/page";
 import NavbarTop from "@/components/Navigation/Top/page";
@@ -13,7 +13,7 @@ export default function SingleProduct(){
             <NavbarLinks/>
             <SingleProductPage/>
             <SingleProductCard/>
-            <Footer6/>
+            <Footer7/>
         </div>
     )
 }

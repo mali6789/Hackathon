@@ -1,10 +1,10 @@
 import Image from "next/image";
 const Footer2 = () => {
     return (
-          <div className="w-full bg-[#F9F9F9] absolute sm:top-[7500px] lg:top-[2567px] left-[-12px]">
+          <div className="w-full bg-[#F9F9F9] absolute top-[435rem] lg:top-[2567px] left-[-12px]">
           <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 h-[343px] w-full">
             {/* Logo & Text */}
-            <div className="lg:w-[350px] lg:h-[198px] flex flex-col gap-[24px] absolute sm:top-[100px] lg:top-[80px] sm:left-[130px] lg:left-[300px]">
+            <div className="w-[400px] lg:w-[350px] lg:h-[198px] flex flex-col gap-[24px] absolute top-[100px] lg:top-[80px] left-[45px] lg:left-[300px]">
               <Image 
               src="/Logo.png" 
               alt="Logo" 
@@ -44,7 +44,7 @@ const Footer2 = () => {
             </div>
     
             {/* Categories */}
-            <div className="absolute sm:top-[350px] lg:top-[80px] sm:left-[130px] lg:left-[747px]">
+            <div className="absolute top-[350px] lg:top-[80px] left-[45px] lg:left-[747px]">
               <h3 className="font-medium text-[#9A9CAA] text-sm uppercase mb-4">Category</h3>
               <ul className="space-y-2 text-[#272343] text-[16px]">
                 <li>Sofa</li>
@@ -57,7 +57,7 @@ const Footer2 = () => {
             </div>
             
             {/* Support */}
-            <div className="absolute sm:top-[350px] lg:top-[80px] sm:left-[450px] lg:left-[971px]">
+            <div className="absolute top-[350px] lg:top-[80px] left-[330px] lg:left-[971px]">
             <h3 className="font-medium text-[#9A9CAA] text-sm uppercase mb-4">Support</h3>
             <ul className="space-y-2 text-[#272343] text-[16px]">
               <li>Help & Support</li>
@@ -68,7 +68,7 @@ const Footer2 = () => {
           </div>
     
             {/* Newsletter */}
-            <div className="absolute sm:top-[600px] lg:top-[80px] sm:left-[130px] lg:left-[1196px]">
+            <div className="w-[441px] absolute top-[600px] lg:top-[80px] left-[45px] lg:left-[1196px]">
               <h3 className="font-medium text-[#9A9CAA] text-sm uppercase mb-4">Newsletter</h3>
               <div className="flex gap-2 mb-4">
                 <input
@@ -87,7 +87,7 @@ const Footer2 = () => {
           </div>
     
           {/* Bottom Section */}
-          <div className="sm:mt-[440px] lg:mt-8 border-t border-gray-200 pt-4 text-center text-sm text-[#9A9CAA]">
+          <div className="mt-[440px] lg:mt-8 border-t border-gray-200 md:pr-[15rem] pt-4 text-center text-sm text-[#9A9CAA]">
             @ 2021 - Blogy - Designed & Developed by{" "}
             <span className="text-[#272343]">Zakirsoft</span>
           </div>

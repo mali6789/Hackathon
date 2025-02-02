@@ -29,7 +29,7 @@ const Brand = [
 export default function Group(){
     return (
         <div>
-            <div className="absolute w-[1320px] h-[244px] sm:top-[1250px] lg:top-[996px] sm:left-[150px] lg:left-[300px] lg:flex justify-center">
+            <div className="absolute w-[1320px] h-[244px] top-[1250px] lg:top-[996px] left-[150px] lg:left-[300px] lg:flex justify-center">
                 {Brand.map ((elem) => {
                     return (
                         <Card3
