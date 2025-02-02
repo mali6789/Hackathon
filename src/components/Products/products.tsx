@@ -36,7 +36,7 @@ export default function FeatureProduct() {
     <div className="absolute h-[461px] top-[1270px]">
 
           {/* Title for Featured Products */}
-         <div className="py-[110px] lg:py-0 pl-[100px] md:pl-[140px] lg:px-[300px] font-inter text-[32px] leading-[35.2px] lg:text-left text-[#272343]">
+         <div className="py-[110px] lg:py-0 pl-[100px] md:pl-[140px] lg:px-[300px] pr-0 md:pr-0 lg:pr-0 font-inter text-[32px] leading-[35.2px] lg:text-left text-[#272343]">
          Featured Products
          </div>
         {ProductData.map((elem) =>{

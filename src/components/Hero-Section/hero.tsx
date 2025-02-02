@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function HeroSection(){
     return(
-        <section className="h-[850px] w-[400px] lg:w-full absolute lg:top-[204px] left-[80px] lg:left-[300px]">
+        <section className="h-[850px] w-[440px] lg:w-full absolute lg:top-[204px] left-[20px] lg:left-[300px]">
              <div className="absolute top-[229px] left-[10px] md:left-[20px] lg:left-[70px] text-[#272343] font-inter text-[14px] font-normal leading-[14px] tracking-[0.12em]">
                 WELCOME TO CHAIRY
              </div>
